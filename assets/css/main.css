@@ -6684,6 +6684,7 @@ input, select, textarea {
 		}
 
 /* Gallery (style2) */
+/* !!! */
 
 	.gallery.style2 {
 		background-color: #000000;
@@ -6856,6 +6857,8 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		/* !!! */
+
 		.gallery.style2 article {
 			-moz-flex-grow: 0;
 			-webkit-flex-grow: 0;
@@ -6868,8 +6871,8 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			overflow: hidden;
-			/*width: 22.5rem;*/
-			max-width: 75vw;
+			/*width: 22.5rem;
+			max-width: 75vw;*/
 		}
 
 			.gallery.style2 article .image {
